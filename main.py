@@ -60,13 +60,10 @@ def get_n_choose_k(n:int,k:int):
     diferenta_factorial=1
     for i in range (1,n+1,1): 
         n_factorial=n_factorial*i
-        print (i)
     for j in range (1,k+1,1): 
         k_factorial=k_factorial*j
-        print(j)
     for l in range (1,diferenta+1,1):
         diferenta_factorial=diferenta_factorial*l
-        print (l)
     combinare=n_factorial//(k_factorial*diferenta_factorial)
     return combinare
 
